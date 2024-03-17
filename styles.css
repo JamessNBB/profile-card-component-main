@@ -27,13 +27,13 @@ body {
 
 .main-container {
   height: 100vh;
-  overflow: hidden;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
 
   position: relative;
+  overflow: hidden;
 }
 
 #bg-top {
@@ -69,8 +69,8 @@ body {
 #avatar {
   border: 5px solid white;
   border-radius: 50%;
+  
   position: absolute;
-
   bottom: -50px;
   left: 0%;
   right: 0;
